@@ -96,7 +96,7 @@ a {
 
 .body_block {
   width: 100%;
-  height: 1080px;
+  height: 100vh;
   background: url(/imgs/fon-1.jpg) center no-repeat;
   background-size: cover;
   display: flex;
