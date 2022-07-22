@@ -1,0 +1,64 @@
+.block_choice{
+    margin-bottom: 30px;
+}
+
+.choice{
+    display: block;
+    width: 304px;
+    height: 125px;
+    position: relative;
+    &:first-child{
+        margin-bottom: 20px;
+    }
+    &:focus{
+    outline: 2px solid;
+    outline-color: $green_white-color;
+    outline-offset: -2px;
+    padding: -2px;
+    border-radius: 5px;
+    }
+}
+
+.choice_countainer-info{
+    position: absolute;
+    top: 37px;
+    left: 28px;
+    .info_title{
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 3px;
+        color: $white-color;
+    }
+}
+
+.info_subtitle{
+    .info_number{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: $green-color;
+        padding-left: 27px;
+        background: url(/imgs/dollar.svg) left no-repeat;
+    }
+    .info_time{
+        font-weight: 400;
+        color: $white_gray-color;
+    }
+}
+
+.link-choice{
+    display: inline-block;
+    padding: 15px 104px;
+    background-color: $gray-color;
+    border-radius: 5px;
+    color: $white-color;
+    &:hover{
+        opacity: 0.65;
+    }
+    .block_link-choice{
+        font-size: 16px;
+        line-height: 19px;
+        padding-right: 34px;
+        background: url(/imgs/like.svg) right no-repeat;
+    }
+}
