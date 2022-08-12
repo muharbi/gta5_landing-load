@@ -97,7 +97,7 @@ a {
 .body_block {
   width: 100%;
   height: 100vh;
-  background: url(/imgs/fon-1.jpg) center no-repeat;
+  background: url(../imgs/fon-1.jpg) center no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -106,7 +106,7 @@ a {
 .body_block .body_block-countainer {
   width: 1108px;
   height: 547px;
-  background: url(/imgs/fon-2.svg) center no-repeat;
+  background: url(../imgs/fon-2.svg) center no-repeat;
 }
 
 .countainer_text .block_title {
@@ -156,7 +156,7 @@ a {
   font-size: 16px;
   line-height: 19px;
   padding-right: 44px;
-  background: url(/imgs/Vector.svg) 245px 5px no-repeat;
+  background: url(../imgs/Vector.svg) 245px 5px no-repeat;
 }
 
 .exit {
@@ -173,7 +173,7 @@ a {
   width: 30px;
   height: 30px;
   border-radius: 3px;
-  background: #181A1D url(/imgs/exit.svg) center no-repeat;
+  background: #181A1D url(../imgs/exit.svg) center no-repeat;
 }
 .exit .exit-cube:hover {
   opacity: 0.65;
@@ -218,7 +218,7 @@ a {
   line-height: 19px;
   color: #A8E04E;
   padding-left: 27px;
-  background: url(/imgs/dollar.svg) left no-repeat;
+  background: url(../imgs/dollar.svg) left no-repeat;
 }
 .info_subtitle .info_time {
   font-weight: 400;
@@ -239,7 +239,7 @@ a {
   font-size: 16px;
   line-height: 19px;
   padding-right: 34px;
-  background: url(/imgs/like.svg) right no-repeat;
+  background: url(../imgs/like.svg) right no-repeat;
 }
 
 /*# sourceMappingURL=main.css.map */
